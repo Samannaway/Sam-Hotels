@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* imports- */
+
+
+/* font families used- */
+
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Passion One', cursive;
+font-family: 'Share Tech', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+/* font-family: 'Righteous', cursive; */
+
+
+/* main css code -  */
+
+/* general styling */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+
+.homeArea,.section2 h1, .section3 div h2{
+    font-family: 'Fredoka One', cursive;
+}
+
+.centerIt{
+    text-align: center;
+    padding-top: 2rem ;
+    margin: auto auto;
+}
+
+.bgColor1{
+    background-color: #B864EC;
+}
+.bgColor3{
+    background-color: #7C2FDE;
+}
+
+.bgColor2{
+    background-color: #F0C7FF;
+}
+/* section 1 and homePage */
+
+.nav-cont{
+    width: 100%!important;
+}
+
+.navbar{
+    padding:2% 10%;
+}
+
+.navbar-brand{
+    font-size: 36px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.nav-item{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.homeArea{
+    padding: 5% 8%;
+    background-color: #B864EC;
+    color: #fff;
+}
+
+.homeArea h1{
+    margin: 14% 0;
+    font-size: 72px;
+}
+
+.row{
+    margin: 0;
+}
+
+/* section2 customer response */
+
+.carousel-caption{
+    color: black!important;
+}
+
+.carousel-item{
+    background-color: rgb(153, 153, 153);
+    height: 55vh;
+}
+
+.carousel-control-next,.carousel-control-prev{
+    margin: auto 0!important;
+}
+
+.customerExperienceArea{
+    padding: 3% 6%;
+}
+
+.carousel-item{
+    padding: 1% 14% ;
+}
+
+.carousel-item p{
+    margin-top: 15%;
+    font-family: 'Fugaz One', cursive;
+}
+
+.input-group{
+    padding: 0 10%;
+}
+
+.border-remove {
+    border: none;
+}
+.border-remove:focus {
+    border: none;
+    outline: none;
+}
+
+.section3 h2, .section3 div, .section3 img{
+    padding-top: 1%;
+}
+
+
+/* section 4 starts */
+
+.btn-outline-dark {
+    color: #7C2FDE;
+    border-color: #7C2FDE;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #7C2FDE;
+    border-color: #7C2FDE;
+}
+
+.card{
+    border-radius: 1rem!important;
+}
+.section4{
+    padding: 2% 10%;
+}
+
+.card-header{
+    font-family: 'Staatliches', cursive;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.list-group-item{
+    font-family: 'Teko', sans-serif;
+    font-size: 150%;
+}
+
+.img-div{
+    margin-left: 20%;
+}
+
+.login-section{
+    padding: 5% 5% 5% 0%;
+}
+
+.list-group-item,.login-section div h1{
+    font-family: 'Teko', sans-serif;
+}
+
+.login-group{
+    margin: 2%;
+}
+
+.login-btn{
+    font-family: 'Passion One', cursive;
+}
+
+.copyright{
+    font-family: 'Fugaz One', cursive;
+    padding: 2rem;
+    font-size: 150%;
+}
+
+.card{
+    margin:3% 0;
+}
